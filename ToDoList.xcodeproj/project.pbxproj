@@ -23,6 +23,7 @@
 		D5752D941824873B00983290 /* ToDoListAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5752D931824873B00983290 /* ToDoListAddToDoItemViewController.m */; };
 		D5752D971824887F00983290 /* ToDoListToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5752D961824887F00983290 /* ToDoListToDoListViewController.m */; };
 		D5752D9A1825394F00983290 /* ToDoListToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D5752D991825394F00983290 /* ToDoListToDoItem.m */; };
+		D593BFA1182E888800145E4A /* todoitems.plist in Resources */ = {isa = PBXBuildFile; fileRef = D593BFA0182E888800145E4A /* todoitems.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,15 @@
 		D5752D961824887F00983290 /* ToDoListToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListToDoListViewController.m; sourceTree = "<group>"; };
 		D5752D981825394F00983290 /* ToDoListToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListToDoItem.h; sourceTree = "<group>"; };
 		D5752D991825394F00983290 /* ToDoListToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListToDoItem.m; sourceTree = "<group>"; };
+		D593BFA0182E888800145E4A /* todoitems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = todoitems.plist; sourceTree = "<group>"; };
+		D5CC114E18351ACD0047DA71 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D5CC114F18351ACD0047DA71 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D5CC115018351ACD0047DA71 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		D5CC115118351ACD0047DA71 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D5CC115218351ACD0047DA71 /* bundle1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = bundle1.o; path = usr/lib/bundle1.o; sourceTree = SDKROOT; };
+		D5CC115318351ACD0047DA71 /* CarrierBundleUtilities.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = CarrierBundleUtilities.dylib; path = usr/lib/CarrierBundleUtilities.dylib; sourceTree = SDKROOT; };
+		D5CC115418351ACD0047DA71 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D5CC115518351ACD0047DA71 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,14 @@
 		D5752D6018245F2200983290 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5CC114E18351ACD0047DA71 /* AssetsLibrary.framework */,
+				D5CC114F18351ACD0047DA71 /* AudioToolbox.framework */,
+				D5CC115018351ACD0047DA71 /* AudioUnit.framework */,
+				D5CC115118351ACD0047DA71 /* AVFoundation.framework */,
+				D5CC115218351ACD0047DA71 /* bundle1.o */,
+				D5CC115318351ACD0047DA71 /* CarrierBundleUtilities.dylib */,
+				D5CC115418351ACD0047DA71 /* CFNetwork.framework */,
+				D5CC115518351ACD0047DA71 /* CoreAudio.framework */,
 				D5752D6118245F2200983290 /* Foundation.framework */,
 				D5752D6318245F2200983290 /* CoreGraphics.framework */,
 				D5752D6518245F2200983290 /* UIKit.framework */,
@@ -127,6 +145,7 @@
 				D5752D901824617300983290 /* Main.storyboard */,
 				D5752D951824887F00983290 /* ToDoListToDoListViewController.h */,
 				D5752D961824887F00983290 /* ToDoListToDoListViewController.m */,
+				D593BFA0182E888800145E4A /* todoitems.plist */,
 				D5752D7318245F2200983290 /* Images.xcassets */,
 				D5752D6818245F2200983290 /* Supporting Files */,
 			);
@@ -239,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5752D911824617300983290 /* Main.storyboard in Resources */,
+				D593BFA1182E888800145E4A /* todoitems.plist in Resources */,
 				D5752D6C18245F2200983290 /* InfoPlist.strings in Resources */,
 				D5752D7418245F2200983290 /* Images.xcassets in Resources */,
 			);

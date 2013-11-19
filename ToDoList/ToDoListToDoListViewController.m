@@ -18,7 +18,6 @@
 
 @implementation ToDoListToDoListViewController
 - (void)loadInitialData {
-    
 }
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue
 {
@@ -34,7 +33,6 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
     }
     return self;
 }
